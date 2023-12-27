@@ -1,0 +1,91 @@
+.nav-icons{
+    color: #004b93;
+    font-size: 22px;
+}
+
+.zindex{
+    z-index: 100;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu-icons{
+    color: white;
+    font-size: 22px;
+}
+.yazi{
+    opacity: 0;
+    transition: .5s all;
+    color: #004b93;
+    font-weight: bold;
+}
+.herbiri{
+    border: 5px solid transparent;
+    transition: .5s all;
+    width: 118px;
+    height: 118px;
+}
+.herbiri:hover{
+    border: 5px solid #004b93;
+}
+.herbiri:hover .yazi{
+    opacity: 1;
+}
+.border-active{
+    border: 5px solid #004b93;
+}
+.border-active .yazi{
+    opacity: 1;
+}
+.yazi-konum{
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    font-size: 25px;
+}
+.kucuk-ekran{
+    display: none;
+}
+.yazi-konums{
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.efekt{
+    filter: grayscale(100%);
+}
+.efekt:hover{
+    transform: scale(1.03);
+    filter: grayscale(0);
+}
+.yerlestir{
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+.yerlestir div{
+    width: 40px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.topluluk{
+    height: 140px;
+  
+}
+.sayilar{
+    background-image: url(./img/arkaplan.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:778px) {
+    .buyuk-ekran{
+        display: none;
+    }
+    .kucuk-ekran{
+        display: block;
+    }
+}
